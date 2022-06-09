@@ -12,6 +12,7 @@ server=8.8.8.8
 
 [policy]
 static=🚀 全局设置,  🚀 手动选择,  🔑 专用线路, DIRECT
+static=🚀 手动选择,url-latency-benchmark=♻️ 自动选择
 static=🎯 国内网络, DIRECT, 🚀 全局设置,  🚀 手动选择, 🔑 专用线路
 static=📲 Telegram, 🚀 全局设置,   🔑 专用线路, 🚀 手动选择, DIRECT
 static=📹 Youtube, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
