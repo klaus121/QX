@@ -55,6 +55,8 @@ https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvQmFoYW11dC5saXN0&group=8J-TuiDlt7Tlk4jlp4bnibk, tag=📺 巴哈姆特, enabled=true
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hTWVkaWEubGlzdA&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3h5TWVkaWEubGlzdA&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, enabled=true
+#无迪士尼国外媒体
+https://raw.githubusercontent.com/klaus121/QX/main/%E5%9B%BD%E5%A4%96%E5%AA%92%E4%BD%93, tag=🌍 国外媒体, enabled=true
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvQmlsaWJpbGlITVQubGlzdA&group=8J-MjyDlh7rmtbflqpLkvZM, tag=🌏 出海媒体, enabled=true
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvSXFpeWlITVQubGlzdA&group=8J-MjyDlh7rmtbflqpLkvZM, tag=🌏 出海媒体, enabled=true
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3h5R0ZXbGlzdC5saXN0&group=8J-agCDlhajlsYDorr7nva4, tag=🚀 全局设置, enabled=true
