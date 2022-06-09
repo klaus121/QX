@@ -17,7 +17,7 @@ static=🎯 国内网络, DIRECT, 🚀 全局设置,  🚀 手动选择, 🔑 �
 static=📲 Telegram, 🚀 全局设置,   🔑 专用线路, 🚀 手动选择, DIRECT
 static=📹 Youtube, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
 static=🎥 Netflix, 🎥 奈飞节点, 🚀 全局设置,   🔑 专用线路, 🚀 手动选择, DIRECT
-static=🎥 Disney,  🚀 全局设置, 🔑 专用线路, 🚀 手动选择, DIRECT
+static=🎬 DisneyPlus, 🎬 迪士尼节点, 🚀 全局设置, 🔑 专用线路, 🚀 手动选择, DIRECT
 static=📺 巴哈姆特,  🚀 全局设置, 🔑 专用线路, 🚀 手动选择, DIRECT
 static=🌍 国外媒体, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
 static=🌏 国内媒体, DIRECT,  🔑 专用线路, 🚀 手动选择
@@ -31,6 +31,7 @@ static=🛑 广告拦截, REJECT, DIRECT
 static=🍃 应用净化, REJECT, DIRECT
 static=🐟 其他网站, 🚀 全局设置,  DIRECT, 🚀 手动选择
 static=🎥 奈飞节点, DIRECT
+static=🎬 迪士尼节点, DIRECT
 static=🔑 专用线路, DIRECT
 
 [server_remote]
@@ -61,7 +62,7 @@ https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hRG9tYWluLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hQ29tcGFueUlwLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
 https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0Rvd25sb2FkLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Disney/Disney.list, tag=🎥 Disney, enabled=true
+https://raw.githubusercontent.com/klaus121/QX/main/disney?token=GHSAT0AAAAAABVNZ7LPWU2CGIRBGZSTTVC6YVBVHPQ, tag=🎬 DisneyPlus, enabled=true
 [rewrite_remote]
 
 [server_local]
