@@ -11,64 +11,61 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=  全局设置,   自动选择,   手动选择,   专用线路, DIRECT
-static=  手动选择,   自动选择
-static=  国内网络,   DIRECT,    全局设置,   自动选择,  手动选择,  专用线路
-static=  Telegram,  全局设置,   自动选择,   专用线路,  手动选择, DIRECT
-static=  Youtube,   全局设置,   自动选择,   专用线路,  手动选择, DIRECT
-static=  Netflix,   奈飞节点,   全局设置,   自动选择,   专用线路,  手动选择, DIRECT
-static=  Disney+,   奈飞节点,   全局设置,   自动选择,   专用线路,  手动选择, DIRECT
-static=  巴哈姆特,   全局设置,  专用线路,   手动选择, DIRECT
-static=  国外媒体,   全局设置,  自动选择,   专用线路,  手动选择, DIRECT
-static=  国内媒体,   专用线路,  手动选择,   DIRECT   
-static=  出海媒体,   专用线路,  手动选择,   DIRECT
-static=  谷歌FCM,    全局设置,  专用线路,  手动选择, DIRECT
-static=  微软云盘,   全局设置,  专用线路,  手动选择, DIRECT
-static=  苹果服务,   全局设置,  专用线路,  手动选择, DIRECT
-static=  国际游戏,   全局设置,  专用线路,  手动选择, DIRECT
-static=  网易音乐,   DIRECT,   全局设置,  自动选择
-static=  广告拦截,   REJECT,   DIRECT
-static=  应用净化,   REJECT,   DIRECT
-static=  其他网站,   全局设置,  自动选择,  手动选择, DIRECT
-static=  奈飞节点,   DIRECT
-static=  专用线路,   DIRECT
+static=🚀 全局设置,  🚀 手动选择,  🔑 专用线路, DIRECT
+static=🎯 国内网络, DIRECT, 🚀 全局设置,  🚀 手动选择, 🔑 专用线路
+static=📲 Telegram, 🚀 全局设置,   🔑 专用线路, 🚀 手动选择, DIRECT
+static=📹 Youtube, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
+static=🎥 Netflix, 🎥 奈飞节点, 🚀 全局设置,   🔑 专用线路, 🚀 手动选择, DIRECT
+static=📺 巴哈姆特, 🇨🇳 台湾节点, 🚀 全局设置, 🔑 专用线路, 🚀 手动选择, DIRECT
+static=🌍 国外媒体, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
+static=🌏 国内媒体, DIRECT,  🔑 专用线路, 🚀 手动选择
+static=🌏 出海媒体, DIRECT,  🔑 专用线路, 🚀 手动选择
+static=📢 谷歌FCM, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
+static=Ⓜ️ 微软云盘, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
+static=🍎 苹果服务, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
+static=🎮 国际游戏, 🚀 全局设置,  🔑 专用线路, 🚀 手动选择, DIRECT
+static=🎶 网易音乐, DIRECT, 🚀 全局设置
+static=🛑 广告拦截, REJECT, DIRECT
+static=🍃 应用净化, REJECT, DIRECT
+static=🐟 其他网站, 🚀 全局设置,  DIRECT, 🚀 手动选择
+static=🎥 奈飞节点, DIRECT
+static=🔑 专用线路, DIRECT
 
 [server_remote]
 
 [filter_remote]
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0xvY2FsQXJlYU5ldHdvcmsubGlzdA&group=8J-OryDlm73lhoXnvZHnu5w, tag= 国内网络, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1VuQmFuLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag= 国内网络, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0JhbkFELmxpc3Q&group=8J-bkSDlub_lkYrmi6bmiKo, tag= 广告拦截, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0JhblByb2dyYW1BRC5saXN0&group=8J-NgyDlupTnlKjlh4DljJY, tag= 应用净化, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvR29vZ2xlRkNNLmxpc3Q&group=8J-ToiDosLfmrYxGQ00, tag= 谷歌FCM, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0dvb2dsZUNOLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag= 国内网络, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL09uZURyaXZlLmxpc3Q&group=4pOC77iPIOW-rui9r-S6keebmA, tag= 微软云盘, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0FwcGxlLmxpc3Q&group=8J-NjiDoi7nmnpzmnI3liqE, tag= 苹果服务, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1RlbGVncmFtLmxpc3Q&group=8J-TsiBUZWxlZ3JhbQ, tag= Telegram, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvTmV0RWFzZU11c2ljLmxpc3Q&group=8J-OtiDnvZHmmJPpn7PkuZA, tag= 网易音乐, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvRXBpYy5saXN0&group=8J-OriDlm73pmYXmuLjmiI8, tag= 国际游戏, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvU29ueS5saXN0&group=8J-OriDlm73pmYXmuLjmiI8, tag= 国际游戏, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvU3RlYW0ubGlzdA&group=8J-OriDlm73pmYXmuLjmiI8, tag= 国际游戏, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvWW91VHViZS5saXN0&group=8J-TuSBZb3V0dWJl, tag= Youtube, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvTmV0ZmxpeC5saXN0&group=8J-OpSBOZXRmbGl4, tag= Netflix, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvQmFoYW11dC5saXN0&group=8J-TuiDlt7Tlk4jlp4bnibk, tag= 巴哈姆特, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hTWVkaWEubGlzdA&group=8J-MjyDlm73lhoXlqpLkvZM, tag= 国内媒体, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3h5TWVkaWEubGlzdA&group=8J-MjSDlm73lpJblqpLkvZM, tag= 国外媒体, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvQmlsaWJpbGlITVQubGlzdA&group=8J-MjyDlh7rmtbflqpLkvZM, tag= 出海媒体, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvSXFpeWlITVQubGlzdA&group=8J-MjyDlh7rmtbflqpLkvZM, tag= 出海媒体, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3h5R0ZXbGlzdC5saXN0&group=8J-agCDlhajlsYDorr7nva4, tag= 全局设置, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hSXAubGlzdA&group=8J-OryDlm73lhoXnvZHnu5w, tag= 国内网络, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hRG9tYWluLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag= 国内网络, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hQ29tcGFueUlwLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag= 国内网络, enabled=true
-https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0Rvd25sb2FkLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag= 国内网络, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list, tag= Disney+, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0xvY2FsQXJlYU5ldHdvcmsubGlzdA&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1VuQmFuLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0JhbkFELmxpc3Q&group=8J-bkSDlub_lkYrmi6bmiKo, tag=🛑 广告拦截, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0JhblByb2dyYW1BRC5saXN0&group=8J-NgyDlupTnlKjlh4DljJY, tag=🍃 应用净化, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvR29vZ2xlRkNNLmxpc3Q&group=8J-ToiDosLfmrYxGQ00, tag=📢 谷歌FCM, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0dvb2dsZUNOLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL09uZURyaXZlLmxpc3Q&group=4pOC77iPIOW-rui9r-S6keebmA, tag=Ⓜ️ 微软云盘, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0FwcGxlLmxpc3Q&group=8J-NjiDoi7nmnpzmnI3liqE, tag=🍎 苹果服务, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1RlbGVncmFtLmxpc3Q&group=8J-TsiBUZWxlZ3JhbQ, tag=📲 Telegram, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvTmV0RWFzZU11c2ljLmxpc3Q&group=8J-OtiDnvZHmmJPpn7PkuZA, tag=🎶 网易音乐, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvRXBpYy5saXN0&group=8J-OriDlm73pmYXmuLjmiI8, tag=🎮 国际游戏, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvU29ueS5saXN0&group=8J-OriDlm73pmYXmuLjmiI8, tag=🎮 国际游戏, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvU3RlYW0ubGlzdA&group=8J-OriDlm73pmYXmuLjmiI8, tag=🎮 国际游戏, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvWW91VHViZS5saXN0&group=8J-TuSBZb3V0dWJl, tag=📹 Youtube, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvTmV0ZmxpeC5saXN0&group=8J-OpSBOZXRmbGl4, tag=🎥 Netflix, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvQmFoYW11dC5saXN0&group=8J-TuiDlt7Tlk4jlp4bnibk, tag=📺 巴哈姆特, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hTWVkaWEubGlzdA&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3h5TWVkaWEubGlzdA&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvQmlsaWJpbGlITVQubGlzdA&group=8J-MjyDlh7rmtbflqpLkvZM, tag=🌏 出海媒体, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1J1bGVzZXQvSXFpeWlITVQubGlzdA&group=8J-MjyDlh7rmtbflqpLkvZM, tag=🌏 出海媒体, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3h5R0ZXbGlzdC5saXN0&group=8J-agCDlhajlsYDorr7nva4, tag=🚀 全局设置, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hSXAubGlzdA&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hRG9tYWluLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0NoaW5hQ29tcGFueUlwLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
+https://api.tsutsu.one/getruleset?type=2&url=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL0Rvd25sb2FkLmxpc3Q&group=8J-OryDlm73lhoXnvZHnu5w, tag=🎯 国内网络, enabled=true
 [rewrite_remote]
 
 [server_local]
 
 [filter_local]
-GEOIP,CN, 国内网络
-FINAL, 其他网站
+GEOIP,CN,🎯 国内网络
+FINAL,🐟 其他网站
 
 [rewrite_local]
 
